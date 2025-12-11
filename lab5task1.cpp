@@ -5,7 +5,7 @@
 
 int main() {
 	int Low = -20, High = 20, counter = 0, NumOfIterations = 20, LowArr = 0, HighArr = LengthOfArray - 1;
-	int arr[LengthOfArray] = { 0 };
+	int arr[LengthOfArray] = { 0 };  //оголошуємо масив
 	srand(time(NULL));
 	printf("Array:\n");
 	for (int i = 0; i < NumOfIterations; i++) {
